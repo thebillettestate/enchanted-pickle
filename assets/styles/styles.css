@@ -1,0 +1,19 @@
+.product-image {
+	height: 200px;
+	display: inline-block;
+	float: left;
+	margin: 20px;
+}
+/*
+.product-description {
+	display: inline;
+}
+
+.alt-price {
+	color: red;
+	text-decoration: line-through;
+}
+
+.product-price {
+	font-weight: bolder;
+}*/
