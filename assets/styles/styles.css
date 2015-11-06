@@ -1,15 +1,18 @@
-.product-image {
-	height: 100%;
+/*************** Store Page **************/
+
+img.product-image {
+	height: 300px;
 	display: inline-block;
 }
 
 .image-container {
-    height: 300px;
+    width: 100%;
     text-align: center;
 }
 
 .product-title {
 	font-size: 2em;
+	height: 60px;
 }
 
 .price-text {
@@ -22,29 +25,5 @@
 	text-decoration: line-through;
 }
 
-.product-detail-container {
-    height: 580px;
-    position: relative;
-}
+/*************** Main Page **************/
 
-button.add-to-cart-button.btn.btn-success {
-    position: absolute;
-    bottom: 3px;
-}
-
-
-
-
-/*
-.product-description {
-	display: inline;
-}
-
-.alt-price {
-	color: red;
-	text-decoration: line-through;
-}
-
-.product-price {
-	font-weight: bolder;
-}*/
