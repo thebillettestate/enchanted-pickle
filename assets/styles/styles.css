@@ -10,6 +10,7 @@
 
 .product-title {
 	font-size: 2em;
+	height: 60px;
 }
 
 .price-text {
@@ -28,10 +29,14 @@
 }
 
 button.add-to-cart-button.btn.btn-success {
-    position: absolute;
-    bottom: 3px;
+    /*position: absolute;
+    bottom: 3px;*/
 }
 
+p.product-description {
+	height: 100px;
+	overflow: hidden;
+}
 
 
 
