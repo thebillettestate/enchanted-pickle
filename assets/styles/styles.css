@@ -41,18 +41,30 @@ img.product-image {
 
 /*************** Main Page **************/
 
-.hero {
-	background-color: rebeccapurple;
+.jumbotron {
+	background-color: #b0ffb2;
 	height: 900px;
 	margin-bottom: 900px;
+	position: relative;
 }
 
-.fixed-cover img {
+.animated-gif {
     position: fixed;
-    bottom: 0;
+    bottom: 50px;
     left: 0;
     right: 0;
     z-index: -1;
     width: 50%;
     margin: 0 auto;
+}
+
+.hero-image-container {
+	text-align: center;
+	margin-top: 400px;
+	position: absolute;
+	bottom: 0;
+}
+
+.hero-image {
+	width: 100%
 }
