@@ -1,9 +1,40 @@
 .product-image {
-	height: 200px;
+	height: 100%;
 	display: inline-block;
-	float: left;
-	margin: 20px;
 }
+
+.image-container {
+    height: 300px;
+    text-align: center;
+}
+
+.product-title {
+	font-size: 2em;
+}
+
+.price-text {
+	display: block;
+	font-size: 1.5em;
+}
+
+.sale-price {
+	color:red;
+	text-decoration: line-through;
+}
+
+.product-detail-container {
+    height: 580px;
+    position: relative;
+}
+
+button.add-to-cart-button.btn.btn-success {
+    position: absolute;
+    bottom: 3px;
+}
+
+
+
+
 /*
 .product-description {
 	display: inline;
