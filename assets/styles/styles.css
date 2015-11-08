@@ -1,22 +1,18 @@
 /************** Global Stylings **********/
-.index .navbar-default {
-	margin: 0;
-	position: fixed;
-	width: 100%;
-	z-index: 99;
-}
 
-.index body {
-	background: none;
+.navbar-default {
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
 }
-
 
 
 /*************** Store Page **************/
 
 img.product-image {
-	height: 300px;
-	display: inline-block;
+    height: 300px;
+    display: inline-block;
 }
 
 .image-container {
@@ -25,32 +21,38 @@ img.product-image {
 }
 
 .product-title {
-	font-size: 2em;
-	height: 60px;
+    font-size: 2em;
+    height: 60px;
 }
 
 .price-text {
-	display: block;
-	font-size: 1.5em;
+    display: block;
+    font-size: 1.5em;
 }
 
 .sale-price {
-	color:red;
-	text-decoration: line-through;
+    color: red;
+    text-decoration: line-through;
 }
+
+.store .container {
+	  position: relative;
+    top: 100px;
+}
+
 
 /*************** Main Page **************/
 
 .jumbotron {
-	background-color: #b0ffb2;
-	height: 900px;
-	margin-bottom: 900px;
-	position: relative;
+    background-color: #b0ffb2;
+    height: 1400px;
+    margin-bottom: 550px;
+    position: relative;
 }
 
 .animated-gif {
     position: fixed;
-    bottom: 50px;
+    bottom: 150px;
     left: 0;
     right: 0;
     z-index: -1;
@@ -58,13 +60,38 @@ img.product-image {
     margin: 0 auto;
 }
 
+.fixed-background-image a {
+	bottom: 50px;
+	position: relative;
+}
+
 .hero-image-container {
-	text-align: center;
-	margin-top: 400px;
-	position: absolute;
-	bottom: 0;
+    text-align: center;
+    margin-top: 400px;
+    position: absolute;
+    bottom: 0;
 }
 
 .hero-image {
-	width: 100%
+    width: 100%;
+}
+
+.jumbotron h1 {
+	color: #777;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.jumbotron p {
+	color: #777;
+	text-align: center;
+}
+
+.cta-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    font-size: 1.2em;
+    margin-top: 80px;
+    width: 300px;
 }
