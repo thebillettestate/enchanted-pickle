@@ -14,14 +14,16 @@
     transition: transform .8s ease-in-out;
 }
 
-
 @media (min-width: 768px) {
-.logo-img:hover {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+    .logo-img:hover {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
+
+
 /*thanks to http://stackoverflow.com/a/23695194 for the sweet transition*/
+
 
 /*************** Store Page **************/
 
@@ -51,7 +53,7 @@ img.product-image {
 }
 
 .store .container {
-      position: relative;
+    position: relative;
     top: 100px;
 }
 
@@ -120,6 +122,7 @@ img.product-image {
 
 
 /************* Gallery Page *********/
+
 .carousel-inner img {
     margin: 50px auto;
 }
