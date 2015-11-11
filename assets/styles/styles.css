@@ -1,10 +1,16 @@
 /************** Global Stylings **********/
 
+body{
+    background-color: white;
+}
+
 .navbar-default {
     margin: 0;
     position: fixed;
     width: 100%;
     z-index: 99;
+    background-color: #F9ED80;
+    top: 0;
 }
 
 .logo-img {
@@ -19,6 +25,10 @@
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: white;
 }
 
 
@@ -84,6 +94,7 @@ img.product-image {
 .fixed-background-image a {
     bottom: 50px;
     position: relative;
+    background-color: #6ECC6E;
 }
 
 .hero-image-container {
@@ -130,11 +141,48 @@ img.product-image {
 span.glyphicon.glyphicon-right {
     position: fixed;
     right: 10%;
-    top: 200px;
+    top: 240px;
 }
 
 span.glyphicon.glyphicon-left {
     position: fixed;
     left: 10%;
-    top: 200px;
+    top: 240px;
 }
+
+.carousel-control.left, .carousel-control.right{
+    background-image: none;
+}
+
+.glyphicon-chevron-left:before {
+    content: "\e079";
+    font-size: 100px;
+    color: green;
+}
+
+.glyphicon-chevron-right:before {
+    content: "\e080";
+    font-size: 100px;
+    color: green;
+}
+
+.carousel-indicators {
+    position: fixed;
+    top: 500px;
+}
+
+.carousel-indicators li{
+    background-color: green;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #b0ffb2;
+}
+
+.carousel {
+    margin-top: 20px;
+}
+
