@@ -6,7 +6,6 @@ $(document).ready(function() {
 
     $('.btn.btn-success:eq(0)').click(function() {
         event.preventDefault();
-        console.log(pickleToCart);
         $('.cart-item-1').after('<p>' + pickleToCart + '</p>');
     });
 
